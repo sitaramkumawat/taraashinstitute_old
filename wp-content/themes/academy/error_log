@@ -1,0 +1,5 @@
+[22-Dec-2016 06:30:41 UTC] PHP Fatal error:  Call to undefined function get_query_var() in /home/taraashinstitute/public_html/wp-content/themes/academy/index.php on line 2
+[22-Jul-2017 22:52:59 UTC] PHP Fatal error:  Call to undefined function get_query_var() in /home/taraashinstitute/public_html/wp-content/themes/academy/index.php on line 2
+[30-Sep-2017 17:39:01 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/taraashinstitute/public_html/wp-content/themes/academy/header.php on line 2
+[18-Oct-2017 04:11:16 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/taraashinstitute/public_html/wp-content/themes/academy/header.php on line 2
+[19-Oct-2017 06:32:40 UTC] PHP Fatal error:  Call to undefined function get_query_var() in /home/taraashinstitute/public_html/wp-content/themes/academy/index.php on line 2

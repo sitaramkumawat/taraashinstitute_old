@@ -1,0 +1,162 @@
+/*
+Theme Name: academy Child
+Template: academy
+*/
+
+
+*{ box-sizing:border-box; }
+
+body{ font-size:14px; }
+.site-logo img
+{
+width: 200px;}
+.top-nav{ background:rgba(0, 160, 148, 1) !important; padding:5px 0;  }
+.top-nav li{ list-style:none; color:#fff; margin-left:15px; display:inline-block; text-indent:0; line-height:10px; }
+.top-nav ul{ display:inline-block; width:auto; text-align:right; float:right; }
+.dow_bro{ display:inline-block; float:left; }
+.dow_bro a{ color:#000; padding:2px 10px; display:inline-block; background:#fff; border-radius:3px; }
+.dow_bro a:hover{ background:#000; color:#fff; }
+
+.site-header{ padding:0; background:#fff; }
+.site-header .header-navigation, .site-header .header-options{ padding-top:40px; }
+.site-header .header-navigation a{ color:#000; }
+.site-header .login-options a, .site-header .search-form{ background-color:#000; }
+
+.header-navigation li.current-menu-item > a, .header-navigation li.hover > a, .header-navigation a:hover{ color:#000; }
+
+.wplc-user-message{ right:50px; }
+.footer-wrap{ background-color:transparent !important; }
+.footer-wrap .footer_widget{ background:#454545; padding:30px 0; }
+.footer-wrap{ position:relative !important; }
+.footer-wrap .widget-block{ float:left; width:22%; margin-right:3%; }
+.footer-wrap .widget-block a, .footer-wrap .widget-block a abbr{ color:#fff; }
+.footer-wrap .widget-block li{ list-style:none; }
+.footer-wrap .site-footer{ padding:0; }
+.footer-wrap .site-footer:after{ background:none; }
+.copyright{ color:#fff; padding:10px 0; text-align:center; width:100%; display:inline-block; }
+
+.footer-navigation{ display:none; }
+.main-content{ padding-bottom:2em; }
+.courses-listing{ dicplay:inline-block; text-align:center; }
+.courses-listing .column:last-child{ margin-right:0; }
+.courses-listing .column.threecol{ width:28%; }
+.footer-wrap .footer-bottom{ display:inline-block; width:100%; float:left; background:#00a094; }
+
+.top-nav li.t_mail{ background: url("images/email.png") no-repeat scroll left center;
+    border-right: 2px solid #fff;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-right: 15px; background-size:20px; }
+
+.top-nav li.t_mob{ background: url("images/phone.png") no-repeat scroll left center;
+    padding-left: 25px; margin-left:0;  background-size:20px;
+}
+
+.top-nav li{ line-height:24px !important; margin-bottom:0px; }
+
+.about_tr{ display:inline-block; width:100%; float:left; text-align:center; margin-bottom:30px; }
+.about_tr .ab_sub{ padding:30px; }
+
+.why_tr{ display:inline-block; width:100%; float:left; padding:80px 0;
+
+background: transparent url(images/jewelry-bg.jpg) repeat-x fixed !important;
+
+	-moz-background-size: cover;
+
+	-webkit-background-size: cover;
+
+	background-attachment: fixed;
+
+	background-position: center top;
+
+	background-size: 100% 100% !important;
+
+
+
+ }
+.why_tr .block{ width:32%; display:inline-block; padding:0 15px; text-align:center; color:#fff; }
+.why_tr .block h1{ margin:30px 0; font-size:24px; }
+.why_tr .block p{ color:#fff; }
+.footer-wrap .widget-block h2{ text-transform:uppercase; }
+.wpcf7-form input, .wpcf7-form textarea, .wpcf7-form select{ width:100%;  background: #fff none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+    color: #333;
+    display: block;
+    font-size: 16px;
+    margin: 0 0 16px;
+    outline: medium none;
+    padding: 0.5em 9px; box-shadow:0 2px 5px rgba(204, 204, 204, 0.4) inset; }
+.wpcf7-form p{ margin-bottom:0; }
+.wpcf7-form p br{ display:none; }
+
+.header-navigation div ul li .sub-menu a{ color:#fff; }
+.why_tr .block a{ opacity:0.9; }
+.why_tr .block a:hover{ opacity:1; }
+
+.courses-listing{ margin-top:30px; }
+.courses-listing .course-header a:hover, .courses-listing .course-header a:focus{ color:#00a094; }
+
+.course-footer a{ background:#00a094; color:#fff; padding:7px 30px; border-radius:5px; display:inline-block; }
+.course-footer a:hover{ color:#fff; background:#000; }
+
+
+.course-header h5{ font-size:20px; }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1000px) {
+	.courses-listing .column.threecol {
+		width:30%;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {
+	
+.courses-listing .column.threecol {
+		width:30%;
+	}
+
+
+
+
+}
+
+@media handheld, only screen and (max-width: 767px) {
+
+.site-header .header-navigation, .site-header .header-options{ padding-top:0px; }
+
+.courses-listing .column.threecol {
+		width:100%;
+	}
+
+.footer-wrap .widget-block{ width:100%; margin:right:0px; text-align:left; }
+.footer-wrap .widget-block li{ line-height:16px; }
+.footer-wrap .widget-block h2{ margin-top:10px; }
+
+
+.top-nav li.t_mail{ background: url("images/email.png") no-repeat scroll left center;
+    border-right: 1px solid #fff;
+    margin-right: 5px;
+    padding-left: 20px;
+    padding-right: 5px; background-size:15px; font-size:12px; margin-left:0; }
+
+.top-nav li.t_mob{ background: url("images/phone.png") no-repeat scroll left center;
+    padding-left: 20px; margin-left:0;  background-size:15px; font-size:12px;
+}
+.why_tr .block{ width:100%; margin-bottom:20px; }
+.why_tr{ padding:50px 0; }
+.why_tr .block h1{ margin:15px 0; }
+
+.dow_bro a{ font-size:10px; }
+
+
+
+}
+
+@media handheld, only screen and (max-width: 480px) {
+.top-nav li.t_mail, .top-nav li.t_mob{ font-size:10px; background-size:13px; padding-left:15px; }
+
+
+}
